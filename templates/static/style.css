@@ -1,0 +1,111 @@
+/*General*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://images.pexels.com/photos/167669/pexels-photo-167669.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-position: left;
+  font-family: 'Rubik', sans-serif;
+}
+
+main {
+  height: 100vh;
+  width: auto;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.text {
+  padding-right: 4rem;
+  margin-left: auto;
+  margin-right: 0;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+a {
+  color: #000;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.contact {
+  padding-top: 2rem;
+  display: flexbox;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+ul {
+  list-style: none;
+}
+
+.send_message {
+  padding-top: 2rem;
+  display: flexbox;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.underline {
+  background-color: #fde400;
+}
+
+.btn_frame {
+  margin: 1rem 0rem;
+}
+
+input[type=submit]  { 
+  padding: .5rem 1rem;
+  background-color: #fde400;
+  border-radius: 20px;
+  outline:none;
+  border: none;
+}
+
+input[type=submit]:hover {
+  padding: .5rem 1rem;
+  background-color: #ffae00;
+  color: #493201;
+  outline:none;
+  border: none;
+}
+
+input[type=submit]:active  { 
+  padding: .5rem 1rem;
+  background-color: #fde400;
+  border-radius: 20px;
+  outline:none;
+  border: none;
+}
+
+
+input[type=submit]:focus  { 
+  padding: .5rem 1rem;
+  background-color: #fde400;
+  border-radius: 20px;
+  outline:none;
+  border: none;
+}
+
+
+
+.text_inner {
+  -ms-flex-pack: center;
+      justify-content: center;
+  line-height: 1.8;
+  width: 500px;
+  -ms-flex-align: center;
+      align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=style.css.map */
